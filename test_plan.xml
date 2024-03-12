@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="demo.eklipse.gg" verbose="1">
+    <test name="SMOKE on Chrome">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="Modules.TestRegister"/>
+            <class name="Modules.TestLogin"/>
+<!--            <class name="Modules.TestConvertFunction"/>-->
+            <class name="Modules.TestAccountSetting"/>
+            <class name="Modules.TestLanding"/>
+        </classes>
+    </test>
+</suite>
